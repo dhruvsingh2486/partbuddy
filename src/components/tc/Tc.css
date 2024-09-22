@@ -1,0 +1,32 @@
+[data-theme="light"]{
+    --bg-color: #fff;
+    --text-color: #333
+
+}
+[data-theme="dark"].product_name{
+   --clr:skyblue
+
+}
+[data-theme="dark"]{
+    --bg-color: #171c2be8;
+    --text-color: #fff
+    
+}
+[data-theme="light"]{
+    --clr:darkblue
+
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+     margin: 0%;
+     padding: 0%;
+}
+.product_name{
+color: var(--clr);
+}
+.text-shadow{
+    text-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 5px 5px;
+
+}

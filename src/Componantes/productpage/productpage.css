@@ -1,0 +1,17 @@
+.single_producte_mng{
+    width: 55rem;
+    margin-top:2%;
+    margin-left: 14%;
+  }
+.brand{
+    margin-top: -5%;
+}
+.delivery{
+padding-left: 20%;}
+
+@media only screen and (max-width: 600px){
+  .single_producte_mng{
+    width: 100%;
+    margin-left: -0%;
+  }
+}

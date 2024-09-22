@@ -1,0 +1,49 @@
+.categorycardcontainer{
+ display: flex;
+ gap: 3%;
+ margin-top: 50px;
+ margin-bottom: 50px;
+}
+
+.categoriesCards {
+  /* border: 2px solid black; */
+  justify-content: center;
+  text-align: center;
+  height: 280px;
+  width: 220px;
+  padding: 0px 0px 0px 0px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* border: 1px solid rgb(77, 76, 76); */
+
+  background-color: #fff;
+  color: black;
+  border-radius: 5px;
+  transition: 80ms;
+  /* transition: ease-in-out; */
+}
+.categoriesCards:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 2px solid rgba(122, 13, 13, 0.365);
+}
+
+.categoriesCards img {
+  height: 100px;
+  margin: 50px 10px 40px 10px;
+  background-color: transparent;
+}
+
+@media only screen and (max-width: 600px) {
+  .categoriesCards {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 300px;
+    width: 320px;
+  }
+
+
+  .categorycardcontainer{
+    flex-direction: column;
+  }
+}

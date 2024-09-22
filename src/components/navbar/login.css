@@ -1,0 +1,108 @@
+.loginbtn{
+    display: block;
+    width: 100px;
+    height: 35px;
+    line-height: 30px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333333;
+    border: 2px solid hsl(24, 71%, 47%);
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+    float: right;
+    margin: 1%;
+    border-radius: 3px;
+    margin-left: 70%;
+
+}
+.loginbtn span {
+    position: relative;
+    z-index: 2;
+}
+.loginbtn:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #df823f;
+    transition: all .35s;  
+
+}
+.loginbtn:hover{
+    color: #fff;
+  }
+  
+  .loginbtn:hover:after{
+    width: 100%;
+  }
+
+  .loginbtn2{
+    display: block;
+    width: 100px;
+    height: 35px;
+    line-height: 30px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #f0efef;
+    /* border: 2px solid #333;   */
+    background-color: #eaa051;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+    float: right;
+    margin: 1%;
+    border-radius: 3px;
+}
+.loginbtn2 span {
+    position: relative;
+    z-index: 2;
+}
+.loginbtn2:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #e9e6e6;
+    transition: all .35s;  
+
+}
+.loginbtn2:hover{
+    color: #0a0a0a;
+  }
+  
+  .loginbtn2:hover:after{
+    width: 100%;
+  }
+  .user_name{
+    font-family: sans-serif;
+    text-transform: capitalize;
+    float: left;
+    margin: 1%;
+    font-size: 20px;
+  }
+  @media only screen and (max-width: 600px){
+    .user_name{
+      font-size: 14px;
+      height: 50%;
+    }
+    .loginbtn2{
+      border: none;
+    }
+    /* .nav_part2{
+      width: 90%;
+      margin-left: 5%;
+    }
+    .authentication{
+      border: 2px solid red;
+      height: 10px;
+    } */
+  }

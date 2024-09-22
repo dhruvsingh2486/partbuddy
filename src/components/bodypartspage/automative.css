@@ -1,0 +1,33 @@
+.autotape_image{
+    /* border: 2px solid red; */
+    /* padding: 2%; */
+}
+.card_mng{
+    transition: 0.30s;
+    width: 16rem;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+.card_mng:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;     
+}
+.card_mng:hover .price_mng{
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.30s;
+
+}
+.title_mng{
+    font-weight: 600;
+}
+@media only screen and (max-width: 600px){
+    .card_heading{
+        font-size: 18px;
+        width: 80%;
+    }
+    .card_mng2{
+        margin-left: 20%;
+        gap: 2%;
+        width: 18rem;
+    }
+}

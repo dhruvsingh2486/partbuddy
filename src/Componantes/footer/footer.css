@@ -1,0 +1,136 @@
+.footer_buttons {
+    width: 250px;
+    height: 70px;
+    background-color: rgb(75, 187, 226);
+    margin: 5% 0 15% 15%;
+     border-radius: 5px;
+     padding-left: 4%;
+     /* border: 2px solid yellow; */
+}
+.footer_buttons-2{
+    width: 250px;
+    height: 70px;
+    background-color: rgb(75, 187, 226);
+    border-radius: 5px;
+    margin-left: 60%;
+    margin-top: -26.6%;
+    padding-top: 0.5%;
+    padding-left: 4%;
+
+}
+.footer_buttons-2 a{
+    text-decoration: none;  
+}
+.footer_buttons a{
+    text-decoration: none;
+}
+.icom_mgn{
+    color: white;
+    font-size: 38px;
+    /* border: 1px solid red; */
+    width: 25%;
+    padding-top: 3%;
+}
+.icom_mgn2{
+    color: white;
+    font-size: 34px;
+    /* border: 1px solid red; */
+    width: 25%;
+    padding-top: 3%;
+}
+.line{
+    color: white;
+    width: 70%;
+    margin-left: 25%;
+    margin-top: -28%;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+}
+.line-2{
+    color: white;
+    text-transform: capitalize;
+    /* border: 1px solid green; */
+    font-size: 26px;
+    /* width: 30%; */
+    margin-left: 22%;
+    margin-top: -22%;
+
+}
+.head_line{
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.head_line2{
+    text-transform: uppercase;
+    color: rgb(75, 187, 226);
+    font-size: 30px;
+    font-weight: 500;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* .app-store{
+    margin-left: 10%;
+} */
+.text{
+    color: white;
+    width: 55%;
+}
+.footerbluearea{
+    background-color: rgb(18, 71, 122);
+    margin-top: 5%;
+    width: 100%;
+}
+@media only screen and (max-width: 600px){
+.footer_buttons{
+    width: 40%;
+    height: 65px;
+    margin-right: 5%;
+    margin-top: -10%;
+}
+.footer_buttons-2{
+    width: 40%;
+    height: 65px;
+    margin-top: -32.8%;
+}
+.head_line{
+    text-transform: capitalize;
+    margin-left: -14%;
+    font-size: 24px;
+}
+.head_line2{
+    text-transform: capitalize;
+    margin-top: -12%;
+    margin-left: 25%;
+    font-size: 24px;
+}
+.text{
+    width: 100%;
+    margin-left: -14%;
+    font-size: 14px;
+}
+.footerbluearea{
+    height: 300px;
+}
+.line{
+    margin-top: -40%;
+    margin-left: 8%;
+    /* border: 1px solid black; */
+    width: 100%;
+}
+.line-2{
+    font-size: 18px;
+    width: 70%;
+    margin-top: -30%;
+    margin-left: 30%;
+    text-align: center;
+}
+
+.app-store{
+height: 10px;
+}
+}
+

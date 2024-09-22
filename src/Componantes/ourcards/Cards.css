@@ -1,0 +1,64 @@
+.img1_mng{
+    width: 36%;
+    /* border: 2px solid red; */
+    /* margin-left: -55%; */
+}
+.title{
+    color: rgb(23, 24, 26);
+    /* margin-right: 5%; */
+    margin-top: 1%;
+    padding-left: 10%;
+
+}
+.title2{
+    color: rgb(33, 33, 34);
+    /* margin-right: 30%;   */
+    margin-top: 1%;
+    padding-left: 10%;
+}
+.card_txt{
+    color: grey;
+    text-align: justify;
+    gap: 0;
+    font-size: 14px;
+    width: 75%;
+    margin-left: 12%;
+}
+.card_txt1{
+    color: grey;
+    text-align: justify;
+    font-size: 14px;
+    width: 65%;
+    margin-left: 12%;
+}
+.card_txt2{
+    color: grey;
+    text-align: justify;
+    font-size: 14px;
+    width: 70%;
+    margin-left: 12%;
+}
+.card{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: none;
+    margin: 1%;
+}
+.card1_mng{
+margin-top: 5%;
+}
+.heading{
+    text-transform: capitalize;
+    font-weight: 600;
+    float: left;
+    color: rgb(234, 153, 66);
+}
+.heading span {
+    color: rgb(228, 224, 223);
+}
+
+@media only screen and (max-width: 600px){
+    .card{
+        /* border: 2px solid black; */
+        margin: 5%;
+    }
+}
