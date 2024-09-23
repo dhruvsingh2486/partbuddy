@@ -14,19 +14,19 @@ export const Carousel = () => {
             <div id="carouselExampleInterval" class="carousel slide carausel" data-bs-ride="carousel" style={{border:"1px solid gray"}}>
   <div class="carousel-inner">
     <div class="carousel-item active " data-bs-interval="2000">
-     <div style={{display:'flex'}}>
+     <div className='crousal_img' style={{display:'flex'}}>
      <img src={carausel1} class="d-block w-50" alt="..." />
      <img src={carausel2} class="d-block w-50" alt="..." />
      </div>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
-    <div style={{display:'flex'}}>
+    <div className='crousal_img' style={{display:'flex'}}>
       <img src={carausel2} class="d-block w-50" alt="..." />
       <img src={carausel3} class="d-block w-50" alt="..." />
     </div>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
-    <div style={{display:'flex'}}>
+    <div className='crousal_img' style={{display:'flex'}}>
       <img src={carausel3} class="d-block w-50" alt="..." />
       <img src={carausel1} class="d-block w-50" alt="..." />
     </div>

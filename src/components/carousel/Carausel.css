@@ -2,3 +2,13 @@
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
 }
+@media only screen and (max-width: 600px){
+.carausel{
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+.crousal_img img{
+    height: 150px;
+
+}
+}
